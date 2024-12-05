@@ -35,16 +35,6 @@
 			path = swift_data_struckts;
 			sourceTree = "<group>";
 		};
-		0BA50C952CFA157200663A0B /* swift_data_strucktsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = swift_data_strucktsTests;
-			sourceTree = "<group>";
-		};
-		0BA50C9F2CFA157200663A0B /* swift_data_strucktsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = swift_data_strucktsUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				0BA50C842CFA157100663A0B /* swift_data_struckts */,
-				0BA50C952CFA157200663A0B /* swift_data_strucktsTests */,
-				0BA50C9F2CFA157200663A0B /* swift_data_strucktsUITests */,
 				0BA50C832CFA157100663A0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				0BA50C942CFA157200663A0B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				0BA50C952CFA157200663A0B /* swift_data_strucktsTests */,
-			);
 			name = swift_data_strucktsTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				0BA50C9E2CFA157200663A0B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0BA50C9F2CFA157200663A0B /* swift_data_strucktsUITests */,
 			);
 			name = swift_data_strucktsUITests;
 			packageProductDependencies = (
