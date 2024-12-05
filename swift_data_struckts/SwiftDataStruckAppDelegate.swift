@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct swift_data_strucktsApp: App {
+struct SwiftDataAppDelegate: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
